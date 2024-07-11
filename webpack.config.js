@@ -1,6 +1,6 @@
 const path = require('path');
 
-let name = 'index';
+let name = 'react';
 
 module.exports = {
   entry: `./src/${name}.tsx`,
