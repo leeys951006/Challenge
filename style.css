@@ -4,8 +4,8 @@
 }
 
 #root > img {
-  width: 1956px;
-  height: 1307px;
+  width: 1920px;
+  height: 1080px;
 }
 
 #card1 {
@@ -13,7 +13,7 @@
   height: 487px;
   background-color: whitesmoke;
   position: relative;
-  bottom: 42vh;
+  bottom: 39vh;
   left: 5vw;
   opacity: 0.9;
 }
@@ -41,7 +41,7 @@
   height: 487px;
   background-color: whitesmoke;
   position: relative;
-  bottom: 40vh;
+  bottom: 37vh;
   left: 5vw;
   opacity: 0.9;
 }

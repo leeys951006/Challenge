@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      const root = document.getElementById('root');
+      const card1 = document.createElement('div');
+      const card1Content1 = document.createElement('div');
+      const card1Content2 = document.createElement('div');
+      const card2 = document.createElement('div');
+      const card2Content1 = document.createElement('div');
+      const card2Content2 = document.createElement('div');
+      const arrowdot = document.createElement('div');
+      const vertical = document.createElement('div');
+
+      // style
+      // root
+      root.style.width = '1920px';
+      root.style.height = '1080px';
+      root.style.backgroundImage =
+        'url(https://s3-alpha-sig.figma.com/img/284a/a4b3/3854223ba1861a51428da5234a85d5aa?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lRbsgffm~kBiYsHLUoiA5J6Y9nUesIQy5fvjUzeWwEhZAxJWDS8duD2IVTb5M1zB4VxYsKkT7CPr2RSilVmIKgRUw1uYD775Dl~p70wOd68IF2HzusIVg87RoxIkJipE2~7Uj9pSa0o5cAZkgAL7UcDk-BYviXLwZvwO0vrTBa7iR5UHPIeXnV3VOMeXvG24quW~xdYQJBa763BPTpyb1eorQbgpg5gMHehQxV1BDEgtqma7Jtnb3oWKEmW88-iKuBBshEOCut3EPsAkXF2LoSkBf2e6r1XllE0FBk8HIKGLFfboBiP3MuBGPykEqUnXOmR23~J5JhdAGbK6JXGZVw__)';
+      root.style.backgroundSize = 'cover';
+      root.style.position = 'relative';
+
+      // card1
+      card1.style.width = '1044px';
+      card1.style.height = '487px';
+      card1.style.backgroundColor = 'whitesmoke';
+      card1.style.position = 'absolute';
+      card1.style.bottom = '7vh';
+      card1.style.left = '5vw';
+      card1.style.opacity = '0.9';
+
+      // card1Content1
+      card1Content1.style.width = '426px';
+      card1Content1.style.height = '77px';
+      card1Content1.style.position = 'relative';
+      card1Content1.style.fontSize = '50px';
+      card1Content1.style.bottom = '10vh';
+      card1Content1.style.left = '5vw';
+      card1Content1.style.color = 'black';
+      card1Content1.innerText = 'INDENTATION';
+
+      // card1Content2
+      card1Content2.style.width = '806px';
+      card1Content2.style.height = '277px';
+      card1Content2.style.fontSize = '12px';
+      card1Content2.style.position = 'relative';
+      card1Content2.style.left = '6vw';
+      card1Content2.style.top = '10vh';
+      card1Content2.style.color = 'black';
+      card1Content2.innerText =
+        'Lorem ipsum dolor sit amet consectetur. A eu id mollis pellentesque tellus bibendum sagittis. Eu nunc eu sed nec nisi. Leo eget urna id congue fusce in venenatis sagittis id. Pretium egestas id morbi eget id commodo adipiscing. Orci vitae aliquam tincidunt vulputate consectetur netus facilisis facilisis nulla. Pellentesque blandit lacus mattis mauris facilisi blandit at pharetra. Nulla quis tellus in felis sagittis viverra viverra ac. Vestibulum quam dui amet cursus amet dictum vitae felis molestie. Malesuada eget pellentesque quis nec euismod. A nisi vel elit cras facilisis sed nunc egestas quis. Neque aliquam vitae facilisis blandit. Donec lacus nunc massa sed pellentesque nam eget gravida tortor. Dignissim ac nulla mi suspendisse viverra mollis rhoncus. Sed hendrerit risus nunc gravida pellentesque tellus a vel molestie. Condimentum massa ut porttitor mi. Elit nunc ut dictum feugiat mauris risus libero. Faucibus urna tellus scelerisque sit ac sed dui. Sit dictum facilisis tempor elementum morbi sapien egestas. In ultricies tincidunt vitae consequat volutpat nascetur rhoncus a ac. Quis pharetra neque ac vivamus tempor. Integer aliquet ac egestas nulla massa amet elit nec. Mauris ullamcorper amet lectus vitae est sagittis ut. Urna lacinia non massa velit et etiam erat neque sit. Lectus vulputate consequat faucibus mattis dol or eget. Faucibus enim hendrerit sagittis diam ridiculus. Nascetur vel eget mi purus ultrices vitae augue vel nunc. Faucibus sit elementum consequat tristique orci turpis in non sit. Nunc mattis risus tincidunt amet libero libero. Bibendum nunc tristique donec sagittis dictumst consequat. Amet urna in quisque consequat nisi lectus et tempor diam. Ultrices aliquam a volutpat arcu est. Semper cras ipsum lectus ut arcu ac. Netus eget quam varius pharetra at pulvinar orci. Lacus et porttitor arcu vitae sociis. Suspendisse tempus leo leo enim. Proin et nibh amet et sollicitudin a enim etiam lectus. Tincidunt euismod placerat ut amet. Pellentesque malesuada nunc suspendisse nulla ornare laoreet maecenas. Sed ut    cilisis augue auctor. Sagittis ac sapien viverra ultricies non sed mauris interdum. Lorem non nec pellentesque imperdiet eget quis. Malesuada pulvinar turpis tortor eu mauris sed. Lectus laoreet augue mauris ut adipiscing ut nulla. Vitae nibh in neque curabitur. Tempus velit pellentesque cursus elementum faucibus massa maecenas. Aliquam ac in nulla etiam facilisi vitae amet. Ut aenean in sed eget blandit id morbi congue. Enim vitae nec blandit sed. Non facilisi neque eu vel.';
+
+      // card2
+      card2.style.width = '1044px';
+      card2.style.height = '487px';
+      card2.style.backgroundColor = 'whitesmoke';
+      card2.style.position = 'relative';
+      card2.style.top = '55vh';
+      card2.style.left = '5vw';
+      card2.style.opacity = '0.9';
+
+      // card2Content1
+      card2Content1.style.width = '426px';
+      card2Content1.style.height = '77px';
+      card2Content1.style.position = 'relative';
+      card2Content1.style.fontSize = '50px';
+      card2Content1.style.top = '5vh';
+      card2Content1.style.left = '5vw';
+      card2Content1.style.color = 'black';
+      card2Content1.innerText = 'EXCLUSIVE';
+
+      // card2Content2
+      card2Content2.style.width = '806px';
+      card2Content2.style.height = '277px';
+      card2Content2.style.fontSize = '12px';
+      card2Content2.style.position = 'relative';
+      card2Content2.style.left = '6vw';
+      card2Content2.style.top = '5vh';
+      card2Content2.style.color = 'black';
+      card2Content2.innerText =
+        'Lorem ipsum dolor sit amet consectetur. A eu id mollis pellentesque tellus bibendum sagittis. Eu nunc eu sed nec nisi. Leo eget urna id congue fusce in venenatis sagittis id. Pretium egestas id morbi eget id commodo adipiscing. Orci vitae aliquam tincidunt vulputate consectetur netus facilisis facilisis nulla. Pellentesque blandit lacus mattis mauris facilisi blandit at pharetra. Nulla quis tellus in felis sagittis viverra viverra ac. Vestibulum quam dui amet cursus amet dictum vitae felis molestie. Malesuada eget pellentesque quis nec euismod. A nisi vel elit cras facilisis sed nunc egestas quis. Neque aliquam vitae facilisis blandit. Donec lacus nunc massa sed pellentesque nam eget gravida tortor. Dignissim ac nulla mi suspendisse viverra mollis rhoncus. Sed hendrerit risus nunc gravida pellentesque tellus a vel molestie. Condimentum massa ut porttitor mi. Elit nunc ut dictum feugiat mauris risus libero. Faucibus urna tellus scelerisque sit ac sed dui. Sit dictum facilisis tempor elementum morbi sapien egestas. In ultricies tincidunt vitae consequat volutpat nascetur rhoncus a ac. Quis pharetra neque ac vivamus tempor. Integer aliquet ac egestas nulla massa amet elit nec. Mauris ullamcorper amet lectus vitae est sagittis ut. Urna lacinia non massa velit et etiam erat neque sit. Lectus vulputate consequat faucibus mattis dol or eget. Faucibus enim hendrerit sagittis diam ridiculus. Nascetur vel eget mi purus ultrices vitae augue vel nunc. Faucibus sit elementum consequat tristique orci turpis in non sit. Nunc mattis risus tincidunt amet libero libero. Bibendum nunc tristique donec sagittis dictumst consequat. Amet urna in quisque consequat nisi lectus et tempor diam. Ultrices aliquam a volutpat arcu est. Semper cras ipsum lectus ut arcu ac. Netus eget quam varius pharetra at pulvinar orci. Lacus et porttitor arcu vitae sociis. Suspendisse tempus leo leo enim. Proin et nibh amet et sollicitudin a enim etiam lectus. Tincidunt euismod placerat ut amet. Pellentesque malesuada nunc suspendisse nulla ornare laoreet maecenas. Sed ut    cilisis augue auctor. Sagittis ac sapien viverra ultricies non sed mauris interdum. Lorem non nec pellentesque imperdiet eget quis. Malesuada pulvinar turpis tortor eu mauris sed. Lectus laoreet augue mauris ut adipiscing ut nulla. Vitae nibh in neque curabitur. Tempus velit pellentesque cursus elementum faucibus massa maecenas. Aliquam ac in nulla etiam facilisi vitae amet. Ut aenean in sed eget blandit id morbi congue. Enim vitae nec blandit sed. Non facilisi neque eu vel.';
+
+      root.appendChild(card1);
+      card1.appendChild(card1Content2);
+      card1.appendChild(card1Content1);
+      root.appendChild(card2);
+      card2.appendChild(card2Content1);
+      card2.appendChild(card2Content2);
+    </script>
+  </body>
+</html>
