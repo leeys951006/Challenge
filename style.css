@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root > img {
+  width: 1956px;
+  height: 1307px;
+}
+
+#card1 {
+  width: 1044px;
+  height: 487px;
+  background-color: whitesmoke;
+  position: relative;
+  bottom: 42vh;
+  left: 5vw;
+  opacity: 0.9;
+}
+
+#card1Content1 {
+  width: 426px;
+  height: 77px;
+  position: relative;
+  font-size: 50px;
+  top: 5vh;
+  left: 5vw;
+}
+
+#card1Content2 {
+  width: 806px;
+  height: 277px;
+  font-size: 12px;
+  position: relative;
+  left: 6vw;
+  top: 5vh;
+}
+
+#card2 {
+  width: 1044px;
+  height: 487px;
+  background-color: whitesmoke;
+  position: relative;
+  bottom: 40vh;
+  left: 5vw;
+  opacity: 0.9;
+}
+
+#card2Content1 {
+  width: 426px;
+  height: 77px;
+  position: relative;
+  font-size: 50px;
+  top: 5vh;
+  left: 5vw;
+}
+
+#card2Content2 {
+  width: 806px;
+  height: 277px;
+  font-size: 12px;
+  position: relative;
+  left: 6vw;
+  top: 5vh;
+}
+
+#arrow-dot {
+  width: 23px;
+  height: 40px;
+  background-color: #ffb14f;
+  position: relative;
+  left: 37vw;
+  bottom: 69vh;
+}
+
+#vertical {
+  width: 10px;
+  height: 532px;
+  background-color: #ffb14f;
+  position: relative;
+  left: 50vw;
+  bottom: 105vh;
+}
