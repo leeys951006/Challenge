@@ -9,17 +9,17 @@ import card2Content1 from '../static/card2Content1';
 import card2Content2 from '../static/card2Content2';
 
 const App: React.FC = () => {
-  const card1Style:CSSProperties = {
+  const card1Style: CSSProperties = {
     width: '1044px',
     height: '487px',
     backgroundColor: 'whitesmoke',
     position: 'absolute',
-    bottom: '0vh',
+    bottom: '15vh',
     left: '5vw',
     opacity: '0.9',
-  }
+  };
 
-  const card2Style:CSSProperties = {
+  const card2Style: CSSProperties = {
     width: '1044px',
     height: '487px',
     backgroundColor: 'whitesmoke',
@@ -27,28 +27,26 @@ const App: React.FC = () => {
     top: '48vh',
     left: '5vw',
     opacity: '0.9',
-  }
+  };
 
-  const arrowdot:CSSProperties = {
+  const arrowdot: CSSProperties = {
     width: '23px',
     height: '40px',
     position: 'relative',
     backgroundColor: '#ffb14f',
     top: '18vh',
     left: '37vw',
-  }
+  };
 
-  const vertical:CSSProperties = {
+  const vertical: CSSProperties = {
     width: '10px',
     height: '532px',
     position: 'relative',
     backgroundColor: '#ffb14f',
     bottom: '10vh',
     left: '50vw',
-  }
+  };
   return (
-
-
     <div>
       <div id="card1" style={card1Style}>
         <Cont1 cardContent={card1Content1}></Cont1>
